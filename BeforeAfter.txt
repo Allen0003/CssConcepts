@@ -1,0 +1,12 @@
+before: Insert content before every <p> element's content:
+p::before { 
+    content: "Read this: ";
+}
+
+
+after: Insert some text after the content of each <p> element:
+p::after { 
+    content: " - Remember this";
+}
+
+Reference: http://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_after
